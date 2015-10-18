@@ -25,4 +25,5 @@
     - phpmyadmin
     - adminer
     - yii-advanced-project
-    - sakila-db
+    - project-db
+    #- sakila-db

@@ -9,14 +9,14 @@ mysql_root_user: root
 mysql_root_pass: root
 mysql_user: yii
 mysql_pass: yii
-mysql_db: sakila
+mysql_db: projectdb
 mysql_bind_address: 0.0.0.0  # Allows all connections, for Production it should be 127.0.0.1
 mysql_key_buffer: 64M
 
 vhosts:
   [
-    { name: 'yii2.local', rootFolder: '/var/www/yii2-app-advanced/frontend/web'},
-    { name: 'admin.yii2.local', rootFolder: '/var/www/yii2-app-advanced/backend/web'},
+    { name: 'yii2.local', rootFolder: '/var/www/project/frontend/web'},
+    { name: 'admin.yii2.local', rootFolder: '/var/www/project/backend/web'},
     { name: 'phpmyadmin.yii2.local', rootFolder: '/usr/share/phpmyadmin'},
     { name: 'adminer.yii2.local', rootFolder: '/usr/share/adminer'}
   ]
