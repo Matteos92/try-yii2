@@ -20,8 +20,8 @@
     - sqlite
     - mysql
     - postgresql
-    - mongodb
-    - phpmongo
+    #- mongodb
+    #- phpmongo
     - phpmyadmin
     - adminer
     - yii-advanced-project
